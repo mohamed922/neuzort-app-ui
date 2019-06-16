@@ -1,0 +1,233 @@
+/* GLOBALS */
+.show {
+    display: block !important ;
+}
+.hide {
+    display: none !important ;
+}
+.border {
+    width:70px ;
+    margin: 0 auto ;
+    border-top: 3px solid #F64A4A !important; 
+}
+.border-left {
+    width:70px ;
+    border-top: 3px solid #F64A4A !important; 
+}
+.text-bold {
+    font-weight: bold ;
+}
+.red-txt {
+    color: red
+}
+/* GLOBALS */
+
+/* HEADER-NAVBAR*/
+.navbar-brand {
+    color: aliceblue ;
+}
+.fa-bars {
+    color : rgb(29, 26, 26) ;
+}
+.fa-search {
+    margin-right: 10px ;
+}
+.search {
+    color: rgba(255, 255, 255, 0.945) ;
+    margin-right: 5px ;
+    text-align: center ;
+}
+.search-inp {
+    background-color: #c1d7ec ;
+    border: 2px solid black ;
+    border-radius: 10px ;
+
+}
+.getApp {
+    background-color: red  ;
+    border-radius: 20px ;
+    padding: 10px;
+    margin-right: 20px;
+    max-width: 200px ;
+    color : white ;
+    text-align: center ;
+    font-size: 12px ;
+}
+.header {
+    background-image : url("imges/header-bg.jpg") ;
+    background-repeat: no-repeat ;
+    background-attachment: scroll;
+    background-size: cover ;
+    display: block ;
+    width: 100% !important;
+    height: 600px;
+    position : relative ;
+}
+.menu {
+    background-color: #9c9ea0 ;
+    text-align: center ;
+    border-radius: 10px ;
+    
+}
+.menu-links {
+    color: white ;
+    font-weight: bold ;
+    
+}
+
+@media screen and (max-width : 400px) {
+    .over {
+        position :absolute ;
+        top : 500px ; 
+        left: 60px ; 
+    }
+}
+@media screen and (min-width : 650px) {
+    .over {
+        position :absolute ;
+        top : 500px ; 
+        left: 90px ; 
+    }
+}
+@media screen and (min-width : 850px) {
+    .over {
+        position :absolute ;
+        top : 500px ; 
+        left: 550px ; 
+    }
+}
+/* HEADER-NAVBAR*/
+
+/* ====================== */
+/* ABOUT-US*/
+.about-us {
+    background-color: #F9F9F9 ;
+}
+.carousel-caption {
+    color : black ;
+}
+.car-itm {
+    padding: 60px ;
+}
+.user-img {
+    display: block ;
+    margin: 0 auto ;
+    margin-bottom: 100px
+}
+/* ABOUT-US*/
+/* ========================= */
+/* STATISTICS*/
+.rating {
+    background-image : url("imges/statics-bg.jpg") ;
+    background-repeat: no-repeat ;
+    background-attachment: scroll;
+    background-size: cover ;
+    padding: 30px ;
+    color: #F9F9F9 ;
+}
+
+.card {
+    position: relative ;
+    box-shadow: 0px 3px 5px #e6e6e6;
+}
+.card-img-top {
+    position: absolute ;
+    top:-40px ;
+    left: 90px ;
+    width: 80px !important ;
+    height: 60px !important ;
+}
+/* ABOUT-US*/
+/* ========================= */
+/* DEMO*/
+.video {
+    background-image: url('./imges/promo.jpg') ;
+    background-repeat: no-repeat ;
+    background-attachment: scroll;
+    background-size: cover ;
+    color : white ;
+    height: 400px;
+}
+.yt-vedio {
+    margin: 200px auto ;
+}
+.center-img {
+    display: block ;
+    margin : 0 auto ;
+    margin-bottom: 10px ;
+    border: 10px solid white ;
+    border-radius: 25px ;
+}
+/* DEMO */
+/* ================== */
+/* SOCIALS*/
+.card-background-img-1 {
+    background-image: url('./imges/social-1.jpg') ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 400px;
+    
+}
+.card-background-img-2 {
+    background-image: url('./imges/social-2.jpg') ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 400px;
+    
+}
+.card-background-img-3 {
+    background-image: url('./imges/social-3.jpg') ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 400px;
+    
+}
+.card-body-text {
+    color: white ;
+   
+}
+.btn-outline-primary {
+    margin: 15px auto ;
+    border-radius: 15px ;
+    width: 170px ;
+    color : black ;
+    border-color : rgb(207, 207, 207) ;
+    background-image: linear-gradient(to right,rgb(245, 245, 245) , rgb(232, 29, 29))
+    
+}
+.fa-chevron-right , .fa-chevron-left {
+    color: rgb(168, 166, 166) ;
+}
+
+/* SOCIALS*/
+/* ======================== */
+/* FOOTER*/
+.f-footer {
+    background-image: url('./imges/footer-bg.jpg') ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: auto;
+    padding-bottom: 10px ;
+}
+.f-footer ul {
+    list-style: none;
+    margin: 0 ;
+    padding: 0 ;
+}
+.f-footer ul li {
+    padding-top: 10px ;
+}
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #9c9ea0;
+    border-radius: 20px;
+}
+.store {
+    position: relative
+}
+.img-btm {
+position: absolute ;
+top: 10px ;
+left: -100px ;
+}
